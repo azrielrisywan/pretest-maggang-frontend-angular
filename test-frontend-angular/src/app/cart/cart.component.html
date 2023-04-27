@@ -1,1 +1,47 @@
-<p>cart works!</p>
+<div class="container">
+	<div class="col-md-12">
+	  <form #myForm="ngForm" (ngSubmit)="onCheckout(myForm)">
+		<div class="table-responsive">
+		  <table class="table">
+			<thead>
+			  <tr>
+				<th>No</th>
+				<th>Foto</th>
+				<th style="text-align: center; vertical-align: middle;">Pilih Barang</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td style="vertical-align: middle">1</td>
+				<td>
+				  <img
+					style="max-width: 100%; width: 150px; max-height: 300px; height: 151px;"
+					src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2023/3/14/0845e203-e52f-42d6-a8b0-f006375e62be.jpg"
+				  />
+				</td>
+				<td style="text-align: -webkit-center; vertical-align: middle;">
+				  <input type="checkbox" class="form-check form-check-input" />
+				</td>
+			  </tr>
+			  <tr>
+				<td style="vertical-align: middle">2</td>
+				<td>
+				  <img
+					style="max-width: 100%; width: 150px; max-height: 300px; height: 151px;"
+					src="https://mg.co.id/wp-content/uploads/2020/05/kettler-hexagonal-dumbell-600x600.jpg"
+				  />
+				</td>
+				<td style="text-align: -webkit-center; vertical-align: middle;">
+				  <input type="checkbox" class="form-check form-check-input" />
+				</td>
+			  </tr>
+			</tbody>
+		  </table>
+		</div>
+		<div class="my-2">
+		  <button type="submit" class="btn btn-primary">Checkout</button>
+		</div>
+	  </form>
+	</div>
+  </div>
+  
