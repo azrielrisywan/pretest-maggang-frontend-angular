@@ -1,1 +1,12 @@
-<p>transaction works!</p>
+<div class="container">
+    <table class="table">
+        <thead>
+            <th>Checkouted Items</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let transaction of transactions">
+                <td>{{ transaction.items }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

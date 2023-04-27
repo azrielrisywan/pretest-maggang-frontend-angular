@@ -1,1 +1,39 @@
-<p>Catalog works!</p>
+<div class="container">
+    <table class="table">
+        <thead>
+            <th>Catalog</th>
+        </thead>
+        <tr *ngFor="let data of catalog">
+            <div class="overflow-hidden position-relative col h-100">
+                <div
+                    class="p-3 text-white berita-featured position-relative d-flex flex-column justify-content-end align-items-start"
+                    style="min-height: 300px; height: 100%">
+                    <div :src="item.link_gambar" alt="" class="top-0 position-absolute d-block start-0 w-100 h-100" style="
+                                background: rgb(0, 0, 0);
+                                background: linear-gradient(
+                                    0deg,
+                                    rgba(0, 0, 0, 1) 0%,
+                                    rgba(255, 255, 255, 0) 60%
+                                );
+                                border-radius: 5px;
+                                z-index: 2;
+                            "></div>
+                    <img 
+                        src="{{ data.imgSrc }}" 
+                        alt="" 
+                        class="top-0 position-absolute d-block start-0 w-100 h-100" 
+                        style="
+                            object-fit: cover;
+                            border-radius: 5px;
+                            z-index: 1;
+                        " />
+                    <div style="z-index: 10">
+                        <h2 class="fw-normal fs-5">
+                            {{ data.nama }}
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </tr>
+    </table>
+</div>

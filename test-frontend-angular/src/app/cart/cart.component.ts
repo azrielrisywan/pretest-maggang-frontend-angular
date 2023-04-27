@@ -17,7 +17,12 @@ export class CartComponent {
     const postData = {
       items: ["Bola", "Dumbbell"]
     }
-    this.http.post('https://test-frontend-angular-68cde-default-rtdb.asia-southeast1.firebasedatabase.app/posts.json', postData).subscribe(response => {
+    this.http
+      .post(
+        'https://test-frontend-angular-68cde-default-rtdb.asia-southeast1.firebasedatabase.app/posts.json', 
+        postData
+      )
+      .subscribe(response => {
       console.log(response);
     })
     this.toastr.success('Form submitted successfully');
