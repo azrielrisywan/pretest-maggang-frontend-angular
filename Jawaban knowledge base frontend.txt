@@ -1,0 +1,18 @@
+1. Apa yang anda ketahui tentang Rest API?
+2. Apa yang anda ketahui tentang Server side and Client side processing?
+3. Apa yang anda ketahui tentang Design pattern Dependency Injection?
+4. Apa yang anda ketahui tentang Typescript dan Angular framework?
+5. Apa yang anda ketahui tentang Microfrontend?
+
+Jawaban : 
+
+1. Rest API adalah cara untuk menghubungkan berbagai aplikasi melalui internet. Cara kerjanya adalah dengan kita melakukan HTTP request ke suatu aplikasi dan aplikasi tersebut akan mengembalikan data yang diminta.
+
+2. Server side processing adalah proses pengelolaan aksi atau permintaan oleh user di dalam server(backend). Sedangkan Client side processing adalah permintaan oleh user di sisi client atau browser. Server side processing digunakan untuk melakukan pengelolaan data dengan skala besar. Sedangkan Client side processing digunakan untuk pengelolaan data kecil agar meningkatkan pengalaman user seperti preference dll.
+
+3. Dependency Injection adalah pengimplementasian dari prinsip IoC yang memungkinkan kita menggunakan komponen dari sumber eksternal berupa framework, library, dan lain-lain.
+
+4. TypeScript adalah bahasa pemrograman superset dari JavaScript (seperti Java -> Kotlin) yang dibuat oleh microsoft. TypeScript dikompilasi menjadi JavaScript agar bisa dijalankan di browser. Sedangkan Angular adalah Framework Front-End Web open-source yang menggunakan bahasa pemrograman TypeScript. Angular dikembangkan oleh google dan diluncurkan pada tahun 2016.
+
+5. Microfrontend adalah pendekatan pengembangan web yang memungkinkan satu web dibangun dengan beberapa aplikasi front-end. Pendekatan Microfrontend mirip dengan Microservices pada pengembangan aplikasi back-end
+
